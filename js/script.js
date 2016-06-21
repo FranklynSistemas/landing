@@ -32,7 +32,7 @@ $(function() {
     });
     var e = setInterval(function() {
         b();
-    }, 5000);
+    }, 10000);
 
     function b() {
         a = ((a == 6) ? 0 : a + 1);
